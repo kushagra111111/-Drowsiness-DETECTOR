@@ -18,6 +18,7 @@ The script fetches latitude and longitude using geopy.
 The emergency message includes a Google Maps link for tracking.
 
 📢 Future Improvements
-Add sound alarm instead of just TTS.
-Improve GPS accuracy using device sensors.
-Integrate cloud storage for incident reports.
+Using gps or Google cloud's geolocation API for more accurate location.
+Sending emergency alert via call also .
+Plan to integrate this system into a dashcam project using a Raspberry Pi for continuous monitoring and detection device.
+
