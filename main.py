@@ -18,10 +18,10 @@ face_detector = dlib.get_frontal_face_detector()
 dlib_facelandmark = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 # Twilio Credentials (Use environment variables for security)
-TWILIO_SID = "AC4302f265f32f25359cefc860c8368d2a"
-TWILIO_AUTH_TOKEN = "5690f4cf2acaafebf8fbb54c7c1c5a0d"
-TWILIO_PHONE_NUMBER = "whatsapp:+14155238886"
-EMERGENCY_CONTACT = "whatsapp:+919839162226"
+TWILIO_SID = "AC4302f265f32f25359cefc860c8368d**"
+TWILIO_AUTH_TOKEN = "5690f4cf2acaafebf8fbb54c7c1c5a**"
+TWILIO_PHONE_NUMBER = "whatsapp:+1415523888*"
+EMERGENCY_CONTACT = "whatsapp:+919839162***"
 
 # Initialize Twilio client
 client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
